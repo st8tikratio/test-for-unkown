@@ -31,7 +31,7 @@ body:
     attributes:
       label: "What is tau?"
       description: "tau = what?"
-      placeholder: 0.20
+      placeholder: "0.20"
     validations:
       required: true
   - type: markdown
