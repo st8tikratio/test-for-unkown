@@ -1,37 +1,37 @@
 ---
-title: "Weekly Workstream Reporting Form"
-labels: "workstream update"
+title: "Fix the variables"
+labels: "Testing some shit"
 
 body:
   - type: markdown
     attributes:
-      value: "# Weekly Workstream Update"
+      value: "# TESTING SOME SHIT"
   - type: markdown
     attributes:
       value: |
-        Use this form to provide weekly workstream updates.
+        Use this form to fill in variables.
   - type: input
-    id: discord-id
+    id: a0-param
     attributes:
-      label: "Discord Handle (optional)"
-      description: "Enter your Discord username"
-      placeholder: "@ratio13"
+      label: "What is a0?"
+      description: "Enter a0."
+      placeholder: "0.30"
     validations:  
-      required: false
+      required: true
   - type: input
-    id: x-id
+    id: k-param
     attributes:
-      label: "X Handle (optional)"
-      description: "Enter your X (Twitter) username"
-      placeholder: "@st8tik"
+      label: "What is k?"
+      description: "k = what?"
+      placeholder: "500"
     validations:  
-      required: false
+      required: true
   - type: input
-    id: date-time
+    id: tau-param
     attributes:
-      label: Provide the DATE and TIME of form creation
-      description: Date [dd-mmm-yyyy] and Time [1300 UTC]
-      placeholder: 12-Jan-2025, 1300 UTC
+      label: "What is tau?"
+      description: "tau = what?"
+      placeholder: 0.20
     validations:
       required: true
   - type: markdown
