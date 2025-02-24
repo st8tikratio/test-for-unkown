@@ -10,7 +10,7 @@ body:
     attributes:
       value: |
         Use this form to fill in variables.
-  - type: input
+  - type: float
     id: a0-param
     attributes:
       label: "What is a0?"
