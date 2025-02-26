@@ -34,7 +34,7 @@ body:
       placeholder: "0.20"
     validations:
       required: true
-   - type: input
+  - type: input
     id: s-param
     attributes:
       label: "What is total circulating ADA"
@@ -42,7 +42,7 @@ body:
       placeholder: "3700000000"
     validations:
       required: true
-   - type: input
+  - type: input
     id: tau-param
     attributes:
       label: "What is tau?"
@@ -50,7 +50,7 @@ body:
       placeholder: "0.20"
     validations:
       required: true
-   - type: input
+  - type: input
     id: CHANGE-1
     attributes:
       label: "What is tau?"
