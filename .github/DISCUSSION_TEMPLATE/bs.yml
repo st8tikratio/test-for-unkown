@@ -10,11 +10,11 @@ body:
     attributes:
       value: |
         Use this form to fill in variables.
-  - type: float
+  - type: input
     id: a0-param
     attributes:
       label: "What is a0?"
-      description: "Enter a0."
+      description: "a0 = what?"
       placeholder: "0.30"
     validations:  
       required: true
@@ -34,30 +34,44 @@ body:
       placeholder: "0.20"
     validations:
       required: true
-  - type: markdown
+   - type: input
+    id: s-param
     attributes:
-      value: ---
-  - type: checkboxes
-    id: which-group
-    attributes:
-      label: "For which working group(s) are you providing this workstream update?"
-      options:
-        - label: Coordination & Admin
-        - label: Metadata Standards
-        - label: Ecosystem Mapping
-        - label: Partnerships
-        - label: Social Media & Marketing
-        - label: Front End Development
-        - label: Back End Development
-        - label: GitHub & Archiving
+      label: "What is total circulating ADA"
+      description: "circulating ADA = ?"
+      placeholder: "3700000000"
     validations:
       required: true
+   - type: input
+    id: tau-param
+    attributes:
+      label: "What is tau?"
+      description: "tau = what?"
+      placeholder: "0.20"
+    validations:
+      required: true
+   - type: input
+    id: tau-param
+    attributes:
+      label: "What is tau?"
+      description: "tau = what?"
+      placeholder: "0.20"
+    validations:
+      required: true
+   - type: input
+    id: tau-param
+    attributes:
+      label: "What is tau?"
+      description: "tau = what?"
+      placeholder: "0.20"
+    validations:
+      required: true    
   - type: markdown
     attributes:
       value: ---
   - type: markdown
     attributes:
-      value: "### Please fill in the workstream related information for each of the sections below:"
+      value: "z - "
   - type: textarea
     attributes:
       label: "1. Current Progress"
