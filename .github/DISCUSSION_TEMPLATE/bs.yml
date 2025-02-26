@@ -51,7 +51,7 @@ body:
     validations:
       required: true
    - type: input
-    id: tau-param
+    id: CHANGE-1
     attributes:
       label: "What is tau?"
       description: "tau = what?"
@@ -59,7 +59,7 @@ body:
     validations:
       required: true
    - type: input
-    id: tau-param
+    id: CHANGE-2
     attributes:
       label: "What is tau?"
       description: "tau = what?"
